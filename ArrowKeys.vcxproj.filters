@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d939cd05-6519-478d-a038-8191a21d7d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c9c2cfdc-54ec-467e-8ede-c85490fee5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{7a84df2e-4803-4a07-9b7e-189ec206314e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{e54cd5d1-d067-43f5-8f44-1ba4d9fb5c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{38f424de-b5f6-4d8f-ad2c-3dfca8f230a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile">
+      <UniqueIdentifier>{fcd8f3a5-08e3-48ad-bde6-95aaafbafbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{539246e1-1e38-4ce9-9307-dd5def7ec473}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainStageScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialBase.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="TileBase.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="FirldTile.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="WallTile.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="GetItemTile.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetMaterialUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBase.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreTimeUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalScoreUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStageScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialBase.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileBase.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FirldTile.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="WallTile.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="GetItemTile.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetMaterialUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreTimeUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalScoreUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

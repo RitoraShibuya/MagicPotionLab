@@ -1,0 +1,21 @@
+#pragma once
+
+#include "Dxlib.h"
+#include "Parameters.h"
+#include "Enum.h"
+#include "Struct.h"
+#include "Input.h"
+#include "Resource.h"
+#include "Time.h"
+#include "UIManager.h"
+#include "SoundManager.h"
+#include <memory>
+#include <vector>
+#include <list>
+#include <random>
+#include <array>
+#include <queue>
+#include <utility>
+#include <algorithm>
+#include <unordered_set>
+#include <functional>

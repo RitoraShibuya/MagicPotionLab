@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ArrowKeys.vcxproj" Id="b4d72642-4098-4b9e-aaf7-ef91aa3648d2" />
+</Solution>
